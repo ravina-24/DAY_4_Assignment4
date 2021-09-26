@@ -6,21 +6,46 @@ namespace DAY_4_Assignment4
     {
         static void Main(string[] args)
         {
+            int input;
+            Console.WriteLine("Enter input \n" +
+                "1.Temperature Conversion \n" +
+                "2.Square root of a non -negative c\n" +
+                "3.Harmoic series \n" +
+                "4.Trignometric function");
 
-            //TemperatureConversion t = new TemperatureConversion();
-            //t.convertTemperature();
-
-            //Sqrt s = new Sqrt();
-            //s.caculateSquareRoot();
-
-            //HarmonicSeries h = new HarmonicSeries();
-            //h.findHarmonicSeries();
+            input = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
 
 
-            Trig T = new Trig();
-            T.TrignometricFunctions();
-            
+            switch (input)
+            {
 
+                case 1:
+                    TemperatureConversion t = new TemperatureConversion();
+                    t.convertTemperature();
+                    break;
+
+                case 2:
+                    Sqrt s = new Sqrt();
+                    s.caculateSquareRoot();
+                    break;
+
+                case 3:
+                    HarmonicSeries h = new HarmonicSeries();
+                    h.findHarmonicSeries();
+                    break;
+
+                case 4:
+                    Trig T = new Trig();
+                    T.TrignometricFunctions();
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid input");
+                    break;
+            }
+
+            Console.ReadLine();
         }
     }
 }
