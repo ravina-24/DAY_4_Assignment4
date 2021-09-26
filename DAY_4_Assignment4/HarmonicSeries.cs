@@ -11,7 +11,6 @@ namespace DAY_4_Assignment4
         {
             Console.WriteLine("------------Harmonic series--------------");
 
-
             int Num;
             Console.WriteLine("Enter Number till you want to print Harmonic series: ");
             Num = Convert.ToInt32(Console.ReadLine());
