@@ -15,7 +15,6 @@ namespace DAY_4_Assignment4
             Console.WriteLine("Enter the input C");
             C = Convert.ToDouble(Console.ReadLine());
 
-
             double t = C ;
 
             double epsilon = 1e-15;
@@ -27,7 +26,6 @@ namespace DAY_4_Assignment4
             }
 
             Console.WriteLine("The value of t is : " + t);
-
             Console.ReadLine();
 
         }
