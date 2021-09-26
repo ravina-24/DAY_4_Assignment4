@@ -18,14 +18,13 @@ namespace DAY_4_Assignment4
             double angleInRadian = angleInDegree * Math.PI / 180;
 
 
-
             double sine = Math.Sin(angleInRadian);
-            Console.WriteLine("The value of sine in {0} is {1} " , +angleInDegree, +sine);
+            Console.WriteLine("The value of sine  {0} is {1} " , +angleInDegree, +sine);
 
             Console.WriteLine();
 
             double cos = Math.Cos(angleInRadian);
-            Console.WriteLine("The value of cosine in {0} is {1}  ", +angleInDegree, +cos);
+            Console.WriteLine("The value of cosine {0} is {1}  ", +angleInDegree, +cos);
 
             Console.ReadLine();
 
